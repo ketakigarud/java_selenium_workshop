@@ -23,7 +23,7 @@ public class calculator_test {
         @Test(priority = 3)
         public void add()
         {
-            Assert.assertEquals(calc_page.calculate("14","+","13"),"27");
+            Assert.assertEquals(calc_page.calculate("15","+","13"),"27");
         }
         @Test(priority = 3)
         public void subtract()
